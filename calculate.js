@@ -37,6 +37,5 @@ console.clear();
     c += 1;
   });
 
-  console.log(`Unweighted GPA: ${(uw / c).toFixed(2)}`);
-  console.log(`Weighted GPA: ${(w / c).toFixed(2)}`);
+  alert(`Unweighted GPA: ${(uw / c).toFixed(2)}\nWeighted GPA: ${(w / c).toFixed(2)}`);
 })();
