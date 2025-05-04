@@ -5,7 +5,7 @@ A quick and easy way to find your GPA in MyCountryDay
 1. Create a bookmark in your browser
 2. Paste the following code as the URL:
 ```js
-javascript:(()=>{let s=document.createElement('script');s.src='https://example.com/script.js';document.body.appendChild(s)})();
+javascript:(()=>{let s=document.createElement('script');s.src='https://raw.githubusercontent.com/aosceola27/gpa-calculator/refs/heads/main/calculate.js';document.body.appendChild(s)})();
 ```
 3. Save the bookmark
 
