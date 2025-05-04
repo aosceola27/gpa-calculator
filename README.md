@@ -1,11 +1,14 @@
 # GPA Calculator
-Calculates your GPA, duh
+A quick and easy way to find your GPA in MyCountryDay
 
-## How to Use
-On your grades page, in the browser console, paste the following script:
+## Setup
+1. Create a bookmark in your browser
+2. Paste the following code as the URL:
 ```js
-!function(u){var s=document.createElement("script");s.src=u,s.type="text/javascript",document.head.appendChild(s)}("https://example.com/script.js");
+javascript:(()=>{let s=document.createElement('script');s.src='https://example.com/script.js';document.body.appendChild(s)})();
 ```
-::: info
-[If you're prompted a warning to not paste code into your browser console](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdeveloper.chrome.com%2Fstatic%2Fblog%2Fself-xss%2Fimage%2Fself-xss-console-warn_1920.png&f=1&nofb=1&ipt=de598b8498cd5a7acda2a9ab22d4492cf7aa45c8d513b86cc390baa80ea5efe9), you can bypass it by typing `allow pasting` in the console.
-:::
+3. Save the bookmark
+
+## Usage
+1. Open your grades page
+2. Open the bookmark
